@@ -44,4 +44,14 @@ html {
     left: 0;
     bottom: -30px;
   }
+
+  .local {
+    @apply border text-gray-600 px-3 py-2 rounded-lg text-sm relative cursor-pointer hover:bg-blue-100 hover:text-blue-800 hover:border-blue-800;
+  }
+  .length {
+    @apply text-[10px] absolute right-[-5px] top-[-12px] bg-red-600 text-white w-8 rounded-full text-center not-italic;
+  }
+  .list {
+    @apply flex items-center border-b border-dashed text-[#6E6E6E] text-sm hover:bg-slate-200 cursor-pointer py-2;
+  }
 }
