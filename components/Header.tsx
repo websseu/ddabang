@@ -8,7 +8,7 @@ import { MdStars } from "react-icons/md";
 const menuItems = [
   { href: "/", label: "Home" },
   { href: "/store", label: "Store" },
-  { href: "/movie", label: "Movie" },
+  { href: "/new", label: "New" },
   { href: "/blog", label: "Blog" },
   { href: "/trending", label: "Trending" },
 ];

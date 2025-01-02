@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function page() {
+export default function Home() {
   return (
     <main className="text-center m-44 NanumSquareNeo text-gray-700 ">
       안녕하세요!! 스타벅스 정보를 알려주는 사이트입니다.

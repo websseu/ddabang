@@ -1,4 +1,4 @@
-@import url("https://websseu.github.io/fontkor/fontkor.css");
+@import url("https://websseu.github.io/fffont/fffont.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
@@ -53,5 +53,24 @@ html {
   }
   .list {
     @apply flex items-center border-b border-dashed text-[#6E6E6E] text-sm hover:bg-slate-200 cursor-pointer py-2;
+  }
+
+  /* main */
+  .main__container {
+    @apply max-w-screen-xl mx-auto md:mt-[60px] sm:mt-[30px] mt-[30px] px-4;
+  }
+
+  /* card */
+  .card__inner {
+    @apply grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 mt-10;
+  }
+  .card__inner > div {
+    @apply bg-black relative;
+  }
+  .card__inner > div h2 {
+    @apply absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 text-white poppins font-light;
+  }
+  .card__inner > div .cover {
+    @apply absolute left-0 top-0 w-full h-full bg-gradient-to-r from-black/50 to-black/50;
   }
 }
